@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Форми</title>
+	<style type="text/css">
+		p{
+			font-size: 50px;
+			color: red;
+			background-color: gray;
+			text-shadow: 2px -2px 5px darkred;
+
+		}
+	</style>
+</head>
+<body>
+<p>Ми вивчаємо форми</p>
+<form name="forma">
+	Пиши<input type="text" name="forma" size="20" maxlength="50" value="Давай пиши!">
+	password<input type="password" name="forma" size="20" maxlength="50" value="Давай пиши!">
+	Go<input type="text" name="information" size="20" maxlength="50" value="readonly">
+	<br>
+	Яку мову ви бажаєте?
+	<input type="checkbox" name="lan1" value="English">English
+	<input type="checkbox" name="lan2" value="French">French
+	<input type="checkbox" name="lan3" value="Poland">Poland
+	<input type="checkbox" name="lan4" value="Соловїна">Соловїна
+	<br>
+	Хто ти?
+	<input type="radio" name="gender" value="Чоловік">Чоловік
+	<input type="radio" name="gender" value="Жінка">Жінка
+	<input type="radio" name="gender" value="Ніхто">Ніхто
+	<br>
+	<input type="submit" name="submit" value="Відправити">
+	<input type="image" name="image" src="button">
+	<input type="reset" name="reset" value="Очистити">
+	<input type="button" name="button" value="відправити">
+	<input type="file" name="downoload" value="завантажити">
+	<br>
+	<textarea cols="25" rows="3" wrap="off"></textarea>
+	<textarea cols="35" rows="3" wrap="virtual"></textarea>
+	<textarea cols="45" rows="3" wrap="on"></textarea>
+	<br>
+	Яку мову ви бажаєте вивчати?
+	<select name="Lan666" size="1"></select>
+	<option value="English">English </option>
+	<option value="French">French </option>
+	<option value="Poland">Poland </option>
+	<option value="Соловїна">Соловїна </option>
+	<section>
+		<br>
+		Скільки часу можете приділити?
+		<option value="1" name="time" ></option>
+		<option value="2" name="time" ></option>
+		<option value="3" name="time" ></option>
+		<option value="4" name="time" ></option>
+	</section>
+	<br>
+	Оберіть дні
+	<section name="day" size="7" multiple>  </section>
+		<option value="Monday">Monday</option>
+		<option value="Tuesday">Tuesday</option>
+		<option value="Wensday">Wensday</option>
+
+		<option value="Thursday">Thursday</option>
+
+		<option value="Friday">Friday</option>
+
+		<option value="Saturday">Saturday</option>
+
+		<option value="Sunday">Sunday</option>
+		</section>
+		<style type="text/css">
+		p{
+			font-size: 50px;
+			background-color: red;
+			color: black;
+			font-family: cursive;
+			text-decoration: underline;
+			text-decoration-style: wavy;
+			text-underline-position: under;
+			text-decoration-color: blue;
+			} 
+	</style>
+</head>
+<body>
+	<script type="text/javascript">
+		let answer1=prompt("Як називається будка сторожа на кладовищі?")
+		if (answer1=="Живий куточок") {
+			alert("Правильно")}
+			else{alert("Невірно")
+		}
+		let answer2=prompt("Що сказав начальник карлику коли той отримав підвищення?")
+		if (answer2=="Молодець ростеш") {
+			alert("Правильно")}
+			else{alert("Невірно")
+		}
+	let answer3=prompt("Якщо я поставлю двигун від Планети на Юпітер, це буде Планета, чи все таки Юпітер ?")
+		if (answer3=="Незнаю") {
+			alert("Я також незнаю")}
+			else{alert("Це важке питання")
+		}
+	
+	</script>
+
+
+</form>
+</body>
+</html>
